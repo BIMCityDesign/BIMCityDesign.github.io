@@ -1,0 +1,550 @@
+<!DOCTYPE html>
+
+ <!-- Public assets here: https://nipunkhanna.notion.site/SiteAssets-Public-e82e4514ecc44946ad89a1ff98f0808d -->
+ <!-- https://www.notion.so/nipunkhanna/SiteAssets-Public-e82e4514ecc44946ad89a1ff98f0808d?pvs=4 -->
+
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <meta http-equiv="X-UA-Compatible" content="ie=edge" />
+    <title>
+      BIMCityDesign - Revit consulting for architecture studio
+    </title>
+    <meta name="description" content="BIMCIty Design landing page" />
+    <meta name="keywords" content="" />
+    <meta name="author" content="Tanvi Grover" />
+    <link rel="stylesheet" href="https://unpkg.com/tailwindcss@2.2.19/dist/tailwind.min.css"/>
+    <!--Replace with your tailwind.css once created-->
+    <link href="https://fonts.googleapis.com/css?family=Source+Sans+Pro:400,700" rel="stylesheet" />
+    <!-- Define your gradient here - use online tools to find a gradient matching your branding-->
+  </head>
+  <body class="leading-normal tracking-normal text-white gradient bg-gradient-to-r from-blue-100  to-blue-200" style="font-family: 'Source Sans Pro', sans-serif;">
+    <!--Nav-->
+    <nav id="header" class="fixed w-full z-30 top-0">
+      <div class="w-full container mx-auto flex flex-wrap items-center justify-between mt-0 py-2">
+        <div class="pl-4 flex items-center">
+          <a class="text-blue-900 no-underline hover:no-underline font-bold text-xl lg:text-3xl" href="#hero">
+            BIMCityDesign
+          </a>
+        </div>
+        
+        <div class="block lg:hidden pr-4">
+          <button id="nav-toggle" class="flex items-center p-1 text-blue-900 hover:text-gray-900 focus:outline-none focus:shadow-outline transform transition hover:scale-105 duration-300 ease-in-out">
+            <svg class="fill-current h-6 w-6" viewBox="0 0 20 20" xmlns="http://www.w3.org/2000/svg">
+              <title>Menu</title>
+              <path d="M0 3h20v2H0V3zm0 6h20v2H0V9zm0 6h20v2H0v-2z" />
+            </svg>
+          </button>
+        </div>
+        
+        <div class="w-full flex-grow lg:flex lg:items-center lg:w-auto hidden mt-2 lg:mt-0 bg-white lg:bg-transparent p-4 lg:p-0 z-20" id="nav-content">
+          <ul class="list-reset lg:flex justify-end flex-1 items-center text-black font-bold ">
+            <li class="mr-3">
+              <a class="inline-block no-underline hover:text-gray-800 hover:text-underline py-2 px-4" href="#services">Services</a>
+            </li>
+            <li class="mr-3">
+              <a class="inline-block no-underline hover:text-gray-800 hover:text-underline py-2 px-4" href="#about">About</a>
+            </li>
+             <li class="mr-3">
+              <a class="inline-block no-underline hover:text-gray-800 hover:text-underline py-2 px-4" href="#cases">Case Studies</a>
+            </li>
+             <li class="mr-3">
+              <a class="inline-block no-underline hover:text-gray-800 hover:text-underline py-2 px-4" href="#contact">Contact</a>
+            </li>
+          </ul>
+        </div>
+      </div>
+      <!-- <hr class="border-b border-gray-100 opacity-25 my-0 py-0" /> -->
+    </nav>
+    <!--Hero-->
+    <div id="hero" class="pt-20">
+      <div class="container px-3 mx-auto flex flex-wrap flex-col md:flex-row items-center md:py-40">
+
+        <!--Left Col-->
+        <div class="flex text-black flex-col w-full md:w-2/5 justify-center items-start text-center md:text-left">
+          <h1 class="my-4 text-4xl lg:text-5xl font-bold leading-tight">
+           Revit Conversions made easy!
+          </h1>
+          <p class="leading-normal text-xl lg:text-2xl mb-8">
+            Convert your architecture studio to Revit & BIM processes. Train your entire staff
+          </p>
+          <div class="mx-auto lg:mx-0 hover:underline bg-blue-900 text-white font-bold rounded-md my-6 py-4 px-6 shadow-lg focus:outline-none focus:shadow-outline transform transition hover:scale-105 duration-300 ease-in-out">
+            Contact us to learn more
+          </div>
+        </div>
+        <!--Right Col-->
+        <div class="w-full md:w-3/5 py-6 flex justify-center">
+          <!-- Image Attribution: https://www.pinterest.ca/pin/832321574872653790/ -->
+          <img class="w-full md:w-4/5" src="https://i.pinimg.com/originals/81/67/cb/8167cb83d07c9d77a9e794354dab1f61.png" />
+        </div>
+      </div>
+    </div>
+    </div>
+
+<!-- Services Section  -->
+
+    <section id="services" class="bg-white py-8">
+      <div class="container max-w-5xl mx-auto my-4 lg:my-8">
+        <h2 class="w-full my-2 text-4xl lg:text-5xl font-bold leading-tight text-center text-blue-900 pb-8">
+          Our Services
+        </h2>
+        <div class="flex flex-wrap mr-8 lg:mr-0">
+          <div id="bodyitem" class="w-full sm:w-1/2 p-2 lg:p-6 flex flex-row">
+            <div class="px-4">
+              <svg xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" stroke-width="1" stroke="black" class="w-12 h-12">
+                <path stroke-linecap="round" stroke-linejoin="round" d="M9.813 15.904L9 18.75l-.813-2.846a4.5 4.5 0 00-3.09-3.09L2.25 12l2.846-.813a4.5 4.5 0 003.09-3.09L9 5.25l.813 2.846a4.5 4.5 0 003.09 3.09L15.75 12l-2.846.813a4.5 4.5 0 00-3.09 3.09zM18.259 8.715L18 9.75l-.259-1.035a3.375 3.375 0 00-2.455-2.456L14.25 6l1.036-.259a3.375 3.375 0 002.455-2.456L18 2.25l.259 1.035a3.375 3.375 0 002.456 2.456L21.75 6l-1.035.259a3.375 3.375 0 00-2.456 2.456zM16.894 20.567L16.5 21.75l-.394-1.183a2.25 2.25 0 00-1.423-1.423L13.5 18.75l1.183-.394a2.25 2.25 0 001.423-1.423l.394-1.183.394 1.183a2.25 2.25 0 001.423 1.423l1.183.394-1.183.394a2.25 2.25 0 00-1.423 1.423z" />
+              </svg>
+            </div>
+            <div id="bodytext">
+              <h3 class="text-2xl lg:text-3xl text-gray-800 font-bold leading-none mb-3">
+                BIM Conversions
+              </h3>
+              <p class="text-gray-600 mb-8 text-md lg:text-lg">
+                We assist in entire office converted to Revit from AutoCAD. We instill industry leading BIM prcoesses & best practices.
+              </p>
+            </div>
+          </div>
+
+
+
+           <div id="bodyitem" class="w-full sm:w-1/2 p-2 lg:p-6 flex flex-row">
+            <div class="px-4">
+              <svg xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" stroke-width="1" stroke="black" class="w-12 h-12">
+                <path stroke-linecap="round" stroke-linejoin="round" d="M12 21a9.004 9.004 0 008.716-6.747M12 21a9.004 9.004 0 01-8.716-6.747M12 21c2.485 0 4.5-4.03 4.5-9S14.485 3 12 3m0 18c-2.485 0-4.5-4.03-4.5-9S9.515 3 12 3m0 0a8.997 8.997 0 017.843 4.582M12 3a8.997 8.997 0 00-7.843 4.582m15.686 0A11.953 11.953 0 0112 10.5c-2.998 0-5.74-1.1-7.843-2.918m15.686 0A8.959 8.959 0 0121 12c0 .778-.099 1.533-.284 2.253m0 0A17.919 17.919 0 0112 16.5c-3.162 0-6.133-.815-8.716-2.247m0 0A9.015 9.015 0 013 12c0-1.605.42-3.113 1.157-4.418" />
+              </svg>
+
+            </div>
+            <div id="bodytext">
+              <h3 class="text-2xl lg:text-3xl text-gray-800 font-bold leading-none mb-3">
+                BIM Outsourcing
+              </h3>
+              <p class="text-gray-600 mb-8 text-md lg:text-lg">
+                Need a one off project or continuous support? We offer low cost alternatives with our staff of high end
+              </p>
+            </div>
+          </div>         
+
+
+
+           <div id="bodyitem" class="w-full sm:w-1/2 p-2 lg:p-6 flex flex-row">
+            <div class="px-4">
+
+              <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" fill="black" class="w-12 h-12">
+                <path fill-rule="evenodd" d="M11.622 1.602a.75.75 0 01.756 0l2.25 1.313a.75.75 0 01-.756 1.295L12 3.118 10.128 4.21a.75.75 0 11-.756-1.295l2.25-1.313zM5.898 5.81a.75.75 0 01-.27 1.025l-1.14.665 1.14.665a.75.75 0 11-.756 1.295L3.75 8.806v.944a.75.75 0 01-1.5 0V7.5a.75.75 0 01.372-.648l2.25-1.312a.75.75 0 011.026.27zm12.204 0a.75.75 0 011.026-.27l2.25 1.312a.75.75 0 01.372.648v2.25a.75.75 0 01-1.5 0v-.944l-1.122.654a.75.75 0 11-.756-1.295l1.14-.665-1.14-.665a.75.75 0 01-.27-1.025zm-9 5.25a.75.75 0 011.026-.27L12 11.882l1.872-1.092a.75.75 0 11.756 1.295l-1.878 1.096V15a.75.75 0 01-1.5 0v-1.82l-1.878-1.095a.75.75 0 01-.27-1.025zM3 13.5a.75.75 0 01.75.75v1.82l1.878 1.095a.75.75 0 11-.756 1.295l-2.25-1.312a.75.75 0 01-.372-.648v-2.25A.75.75 0 013 13.5zm18 0a.75.75 0 01.75.75v2.25a.75.75 0 01-.372.648l-2.25 1.312a.75.75 0 11-.756-1.295l1.878-1.096V14.25a.75.75 0 01.75-.75zm-9 5.25a.75.75 0 01.75.75v.944l1.122-.654a.75.75 0 11.756 1.295l-2.25 1.313a.75.75 0 01-.756 0l-2.25-1.313a.75.75 0 11.756-1.295l1.122.654V19.5a.75.75 0 01.75-.75z" clip-rule="evenodd" />
+              </svg>
+
+
+            </div>
+            <div id="bodytext">
+              <h3 class="text-2xl lg:text-3xl text-gray-800 font-bold leading-none mb-3">
+                AR/VR/MR Protyping
+              </h3>
+              <p class="text-gray-600 mb-8 text-md lg:text-lg">
+                Convert your existing models into augemented or mixed reality 3D designs that your customers can touch and feel. An easy way to give a boost to your sales effort.
+              </p>
+            </div>
+          </div>         
+
+
+
+
+          <div id="bodyitem" class="w-full sm:w-1/2 p-2 lg:p-6 lg:p-6 flex flex-row">
+            <div class="px-4">
+              
+              <svg xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" stroke-width="1" stroke="black" class="w-12 h-12">
+                <path stroke-linecap="round" stroke-linejoin="round" d="M18 18.72a9.094 9.094 0 003.741-.479 3 3 0 00-4.682-2.72m.94 3.198l.001.031c0 .225-.012.447-.037.666A11.944 11.944 0 0112 21c-2.17 0-4.207-.576-5.963-1.584A6.062 6.062 0 016 18.719m12 0a5.971 5.971 0 00-.941-3.197m0 0A5.995 5.995 0 0012 12.75a5.995 5.995 0 00-5.058 2.772m0 0a3 3 0 00-4.681 2.72 8.986 8.986 0 003.74.477m.94-3.197a5.971 5.971 0 00-.94 3.197M15 6.75a3 3 0 11-6 0 3 3 0 016 0zm6 3a2.25 2.25 0 11-4.5 0 2.25 2.25 0 014.5 0zm-13.5 0a2.25 2.25 0 11-4.5 0 2.25 2.25 0 014.5 0z" />
+              </svg>
+
+            </div>
+            <div id="bodytext">
+              <h3 class="text-2xl lg:text-3xl text-gray-800 font-bold leading-none mb-3">
+                Staff Training in Revit
+              </h3>
+              <p class="text-gray-600 mb-8 text-md lg:text-lg">
+                Conversions can be hard, we often see staff not adequetely tranuied ........
+              </p>
+            </div>
+          </div>
+
+
+          <div id="bodyitem" class="w-full sm:w-1/2 p-2 lg:p-6 flex flex-row">
+            <div class="px-4">
+              <svg xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" stroke-width="1" stroke="black" class="w-12 h-12">
+                <path stroke-linecap="round" stroke-linejoin="round" d="M11.35 3.836c-.065.21-.1.433-.1.664 0 .414.336.75.75.75h4.5a.75.75 0 00.75-.75 2.25 2.25 0 00-.1-.664m-5.8 0A2.251 2.251 0 0113.5 2.25H15c1.012 0 1.867.668 2.15 1.586m-5.8 0c-.376.023-.75.05-1.124.08C9.095 4.01 8.25 4.973 8.25 6.108V8.25m8.9-4.414c.376.023.75.05 1.124.08 1.131.094 1.976 1.057 1.976 2.192V16.5A2.25 2.25 0 0118 18.75h-2.25m-7.5-10.5H4.875c-.621 0-1.125.504-1.125 1.125v11.25c0 .621.504 1.125 1.125 1.125h9.75c.621 0 1.125-.504 1.125-1.125V18.75m-7.5-10.5h6.375c.621 0 1.125.504 1.125 1.125v9.375m-8.25-3l1.5 1.5 3-3.75" />
+              </svg>
+            </div>
+            <div id="bodytext">
+              <h3 class="text-2xl lg:text-3xl text-gray-800 font-bold leading-none mb-3">
+                BIM Processes audit
+              </h3>
+              <p class="text-gray-600 mb-8 text-md lg:text-lg">
+                Need a one off project or continuous support? We offer low cost alternatives with our staff of high end
+              </p>
+            </div>
+          </div>
+
+
+          <div id="bodyitem" class="w-full sm:w-1/2 p-2 lg:p-6 flex flex-row">
+            <div class="px-4">
+              <svg xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" stroke-width="1" stroke="black" class="w-12 h-12">
+                <path stroke-linecap="round" stroke-linejoin="round" d="M3.75 3v11.25A2.25 2.25 0 006 16.5h2.25M3.75 3h-1.5m1.5 0h16.5m0 0h1.5m-1.5 0v11.25A2.25 2.25 0 0118 16.5h-2.25m-7.5 0h7.5m-7.5 0l-1 3m8.5-3l1 3m0 0l.5 1.5m-.5-1.5h-9.5m0 0l-.5 1.5m.75-9l3-3 2.148 2.148A12.061 12.061 0 0116.5 7.605" />
+              </svg>
+            </div>
+            <div id="bodytext">
+              <h3 class="text-2xl lg:text-3xl text-gray-800 font-bold leading-none mb-3">
+                Sales Pitch Support
+              </h3>
+              <p class="text-gray-600 mb-8 text-md lg:text-lg">
+                Get high quality renders for your sales pitch with fast turnaround times but at industry leading rates. Easily manage your budget at per job basis.
+              </p>
+            </div>
+          </div>
+
+
+
+
+    </section>
+  
+
+    <!-- About Us Section  -->
+
+    <section id="about" class="bg-gray-100 py-8">
+      <div class="container max-w-5xl lg:mx-auto my-4 lg:my-8">
+        <h2 class="w-full my-2 text-4xl lg:text-5xl font-bold leading-tight text-center text-blue-900 pb-8 lg:pb-12">
+          About Us
+        </h2>
+        <div class="flex flex-wrap">
+          <div id="bodyitem" class="w-full lg:w-1/2 px-12 flex flex-row text-black text-md lg:text-lg">
+            <div id="bodytext">
+              As founder in India, she has led converssions of many .. lorem ipsum lorem ipsum  lorem ipsum lorem ipsum  lorem ipsum lorem ipsum  lorem ipsum lorem ipsum.
+              <br/>
+              <br/>
+              Global firm and service area lorem ipsum lorem ipsum lorem ipsum lorem ipsum lorem ipsum lorem ipsum 
+              <br>
+              <br>
+              <div class="font-bold">BIMCityDesign Inc.</div>
+              <div class="">Burnaby, BC 🇨🇦</div>
+              </b>
+            </div>
+          </div>
+
+          <!-- Image source: https://undraw.co/ -->
+          <div id="bodyitem" class="w-full lg:w-1/2 px-12 lg:pt-0 pt-16 flex flex-row text-black">
+            <img class="lg:w-full" src="https://nipunkhanna.notion.site/image/https%3A%2F%2Fs3-us-west-2.amazonaws.com%2Fsecure.notion-static.com%2F8d6837d0-16d3-49bf-9f54-2007cc6b751f%2Fundraw_engineering_team_a7n2.svg?id=9c691c6e-b109-4e0c-abe5-ff6916d9f006&table=block&spaceId=25cfc9db-4d97-4cc3-b214-8b2f62f7c397&userId=&cache=v2" />
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- Case Studies Section  -->
+    <section id="cases" class="bg-white py-8">
+      <div class="container mx-auto flex flex-wrap pt-4 pb-8 lg:pb-12">
+        <h2 class="w-full my-2 text-5xl font-bold leading-tight text-center text-gray-800">
+          Case Studies
+        </h2>
+        
+        <!-- Case Item -->
+         
+          <div class="w-full md:w-1/3 p-6 flex flex-col flex-grow flex-shrink focus:outline-none focus:shadow-outline transform transition hover:scale-105 duration-500 ease-in-out">
+            <a href="https://medium.com/@TanviGrover/vertical-informality-learning-examples-of-3-dimensional-urbanism-cebeed59fac8">
+              <div class="flex-1 bg-white rounded-t rounded-b-none overflow-hidden shadow ">
+                  <div class="flex flex-wrap px-6">
+                    <div class="text-gray-600 text-xs md:text-sm px-2 py-1 bg-red-100 rounded-md my-4 mr-2">
+                      Urban Planning
+                    </div>
+                    <div class="text-gray-600 text-xs md:text-sm px-2 py-1 bg-yellow-100 rounded-md my-4 mr-2">
+                      Technology
+                    </div>
+                  </div>
+                  <div class="w-full font-bold text-xl text-black px-6 pb-2">
+                    Award winning studio finds efficiency with Revit
+                  </div>
+                  <p class="text-base text-black px-6 mb-5">
+                    Lorem ipsum dolor sit amet, consectetur adipiscing elit. Aliquam at ipsum eu nunc commodo posuere et sit amet ligula.
+                  </p>
+              </div>
+              <div class="flex-none mt-auto bg-white rounded-b rounded-t-none overflow-hidden shadow h-48 w-full">
+                <div class="flex items-center justify-start">
+                    <img class="w-full h-full object-cover" src="https://maverickurbanist.notion.site/image/https%3A%2F%2Fs3-us-west-2.amazonaws.com%2Fsecure.notion-static.com%2F51a761bd-dafd-46ad-963e-97b4661e8fef%2FDP_Site.jpg?table=block&id=391e06f2-36cf-4ee2-9fdb-522cac70d1aa&spaceId=a0848355-b996-4618-8f36-4fbd83795797&width=2000&userId=&cache=v2" />
+                </div>
+              </div>
+            </a>
+          </div>
+        
+
+        <!-- Case Item -->
+        <div class="w-full md:w-1/3 p-6 flex flex-col flex-grow flex-shrink focus:outline-none focus:shadow-outline transform transition hover:scale-105 duration-500 ease-in-out">
+          <a href="https://medium.com/@TanviGrover/vertical-informality-learning-examples-of-3-dimensional-urbanism-cebeed59fac8">
+          <div class="flex-1 bg-white rounded-t rounded-b-none overflow-hidden shadow">
+              <div class="flex flex-wrap px-6">
+                <div class="text-gray-600 text-xs md:text-sm px-2 py-1 bg-red-100 rounded-md my-4 mr-2">
+                  Urban Planning
+                </div>
+                <div class="text-gray-600 text-xs md:text-sm px-2 py-1 bg-yellow-100 rounded-md my-4 mr-2">
+                  Technology
+                </div>
+              </div>
+              <div class="w-full font-bold text-xl text-gray-800 px-6 pb-2">
+                Award winning studio finds efficiency with Revit
+              </div>
+              <p class="text-gray-800 text-base px-6 mb-5">
+                Lorem ipsum dolor sit amet, consectetur adipiscing elit. Aliquam at ipsum eu nunc commodo posuere et sit amet ligula.
+              </p>
+          </div>
+          <div class="flex-none mt-auto bg-white rounded-b rounded-t-none overflow-hidden shadow h-48 w-full">
+            <div class="flex items-center justify-start">
+                <img class="w-full h-full object-cover" src="https://maverickurbanist.notion.site/image/https%3A%2F%2Fs3-us-west-2.amazonaws.com%2Fsecure.notion-static.com%2F51a761bd-dafd-46ad-963e-97b4661e8fef%2FDP_Site.jpg?table=block&id=391e06f2-36cf-4ee2-9fdb-522cac70d1aa&spaceId=a0848355-b996-4618-8f36-4fbd83795797&width=2000&userId=&cache=v2" />
+            </div>
+          </div>
+        </a>
+        </div>
+
+
+        <!-- Case Item -->
+        <div class="w-full md:w-1/3 p-6 flex flex-col flex-grow flex-shrink focus:outline-none focus:shadow-outline transform transition hover:scale-105 duration-500 ease-in-out">
+          <a href="https://medium.com/@TanviGrover/vertical-informality-learning-examples-of-3-dimensional-urbanism-cebeed59fac8">
+          <div class="flex-1 bg-white rounded-t rounded-b-none overflow-hidden shadow">
+              <div class="flex flex-wrap px-6">
+                <div class="text-gray-600 text-xs md:text-sm px-2 py-1 bg-red-100 rounded-md my-4 mr-2">
+                  Urban Planning
+                </div>
+                <div class="text-gray-600 text-xs md:text-sm px-2 py-1 bg-yellow-100 rounded-md my-4 mr-2">
+                  Technology
+                </div>
+              </div>
+              <div class="w-full font-bold text-xl text-gray-800 px-6 pb-2">
+                Award winning studio finds efficiency with Revit
+              </div>
+              <p class="text-gray-800 text-base px-6 mb-5">
+                Lorem ipsum dolor sit amet, consectetur adipiscing elit. Aliquam at ipsum eu nunc commodo posuere et sit amet ligula.
+              </p>
+          </div>
+          <div class="flex-none mt-auto bg-white rounded-b rounded-t-none overflow-hidden shadow h-48 w-full">
+            <div class="flex items-center justify-start">
+                <img class="w-full h-full object-cover" src="https://maverickurbanist.notion.site/image/https%3A%2F%2Fs3-us-west-2.amazonaws.com%2Fsecure.notion-static.com%2F51a761bd-dafd-46ad-963e-97b4661e8fef%2FDP_Site.jpg?table=block&id=391e06f2-36cf-4ee2-9fdb-522cac70d1aa&spaceId=a0848355-b996-4618-8f36-4fbd83795797&width=2000&userId=&cache=v2" />
+            </div>
+          </div>
+        </a>
+        </div>        
+      </div>
+    
+    </section>
+ 
+
+<!-- Contact Us Section  -->
+
+    <section id="contact" class="bg-blue-900 py-8">
+      <div class="container py-8 px-4 mx-auto max-w-screen-md">
+        <h2 class="w-full my-2 text-4xl lg:text-5xl font-bold leading-tight text-center text-white pb-2 lg:pb-4">
+          Contact Us
+        </h2>
+        <div class="flex flex-wrap text-black text-md lg:text-lg">
+          <div id="bodyitem" class="w-full text-center px-8 lg:px-24 pb-8 flex flex-row text-white">
+            <div id="bodytext">
+              You can reach out to us at <span class="font-bold"><a href="mailto:hi@bimcitydesign.com?subject=Inquiry from website" target="_blank">hi@BIMCityDesign.com</a></span> or via form below to help us serve you better
+            </div>
+          </div>
+        </div>
+        
+        <div class="w-full flex text-black text-md lg:text-lg px-4 lg:px-12 py-4 pb-8">  
+          <div class="w-full">
+            <!-- Forms subimssion via https://app.getform.io/forms/64480 - Nipun login in am-->
+            <form class="bg-white shadow-md rounded px-6 lg:px-12 pt-6 py-8 mb-4" action="https://getform.io/f/37f95141-9cb2-48e8-869d-85d6d10ade1d" method="POST">
+              
+              <div class="flex flex-wrap">
+                <!-- Item in form -->
+                <div class="mb-4 w-full">
+                  <label class="block text-gray-700 text-sm font-bold mb-2" for="Name">Name</label>
+                  <input class="shadow appearance-none border rounded w-full py-2 px-3 text-gray-700 leading-tight focus:outline-none focus:shadow-outline" id="Name" type="text" name="name" placeholder="Name" required>
+                </div>
+
+                <!-- Item in form -->
+                <div class="mb-4 w-full">
+                  <label class="block text-gray-700 text-sm font-bold mb-2" for="Company">Company</label>
+                  <input class="shadow appearance-none border rounded w-full py-2 px-3 text-gray-700 leading-tight focus:outline-none focus:shadow-outline" id="Company" type="text" name="company" placeholder="Company (optional)">
+                </div>
+
+
+                <!-- Item in form -->
+                <div class="mb-4 w-full">
+                  <label class="block text-gray-700 text-sm font-bold mb-2" for="Email">Email</label>
+                  <input class="shadow appearance-none border rounded w-full py-2 px-3 text-gray-700 leading-tight focus:outline-none focus:shadow-outline" id="Email" type="email" name="email" placeholder="Email" required>
+                </div>
+
+
+                <!-- Item in form -->
+                <div class="mb-4 w-full">
+                  <label class="block text-gray-700 text-sm font-bold mb-2" for="Phone">Phone</label>
+                  <input class="shadow appearance-none border rounded w-full py-2 px-3 text-gray-700 leading-tight focus:outline-none focus:shadow-outline" id="Phone" type="text" name="phone" placeholder="Phone (optional)">
+                </div>
+
+                <!-- Item in form -->
+                <div class="mb-4w-full w-full">
+                  <label class="block text-gray-700 text-sm font-bold mb-2" for="Tell us more">Tell us more</label>
+                  <textarea id="details" name="details" rows="3" class="w-full shadow appearance-none border rounded py-2 px-3 leading-tight text-gray-700 focus:outline-none focus:shadow-outline" placeholder="How can we help you with your business needs?"></textarea>
+                </div>             
+            
+            </div>
+
+            <div class="flex items-center justify-between mt-4">
+                <button class="bg-blue-700 hover:bg-blue-900 text-white font-bold py-2 px-4 rounded focus:outline-none focus:shadow-outline focus:outline-none focus:shadow-outline transform transition duration-500 ease-in-out" type="submit">
+                  Submit
+                </button>
+            </div>
+            </form>
+          </div>
+
+        </div>
+      </div>
+    </section>
+
+
+
+
+    <!--Footer-->
+    <footer class="bg-black py-8" >
+      <div class="container py-4 px-4 lg:px-8 lg:py-8 max-w-5xl mx-auto">
+        <div   class="flex justify-between">
+          <div class="">
+            <div class="font-bold">BIMCityDesign Inc.</div>
+            <div class="">Burnaby, BC 🇨🇦</div>
+          </div>
+          <div>
+            <a href="mailto:hi@bimcitydesign.com?subject=Inquiry from website" target="_blank">
+              hi@BIMCityDesign.com
+            </a>
+          </div>
+          
+        </div>
+      </div>
+    </footer>
+
+<!--     jQuery if you need it -->
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script>
+ 
+    <script>
+      var scrollpos = window.scrollY;
+      var header = document.getElementById("header");
+      var navcontent = document.getElementById("nav-content");
+      var navaction = document.getElementById("navAction");
+      var brandname = document.getElementById("brandname");
+      var toToggle = document.querySelectorAll(".toggleColour");
+
+      document.addEventListener("scroll", function () {
+        /*Apply classes for slide in bar*/
+        scrollpos = window.scrollY;
+
+        if (scrollpos > 10) {
+          header.classList.add("bg-white");
+          navaction.classList.remove("bg-white");
+          navaction.classList.add("gradient");
+          navaction.classList.remove("text-gray-800");
+          navaction.classList.add("text-white");
+          //Use to switch toggleColour colours
+          for (var i = 0; i < toToggle.length; i++) {
+            toToggle[i].classList.add("text-gray-800");
+            toToggle[i].classList.remove("text-white");
+          }
+          header.classList.add("shadow");
+          navcontent.classList.remove("bg-gray-100");
+          navcontent.classList.add("bg-white");
+        } else {
+          header.classList.remove("bg-white");
+          navaction.classList.remove("gradient");
+          navaction.classList.add("bg-white");
+          navaction.classList.remove("text-white");
+          navaction.classList.add("text-gray-800");
+          //Use to switch toggleColour colours
+          for (var i = 0; i < toToggle.length; i++) {
+            toToggle[i].classList.add("text-white");
+            toToggle[i].classList.remove("text-gray-800");
+          }
+
+          header.classList.remove("shadow");
+          navcontent.classList.remove("bg-white");
+          navcontent.classList.add("bg-gray-100");
+        }
+      });
+    </script>
+    <script>
+      /*Toggle dropdown list*/
+      /*https://gist.github.com/slavapas/593e8e50cf4cc16ac972afcbad4f70c8*/
+
+      var navMenuDiv = document.getElementById("nav-content");
+      var navMenu = document.getElementById("nav-toggle");
+
+      document.onclick = check;
+      function check(e) {
+        var target = (e && e.target) || (event && event.srcElement);
+
+        //Nav Menu
+        if (!checkParent(target, navMenuDiv)) {
+          // click NOT on the menu
+          if (checkParent(target, navMenu)) {
+            // click on the link
+            if (navMenuDiv.classList.contains("hidden")) {
+              navMenuDiv.classList.remove("hidden");
+            } else {
+              navMenuDiv.classList.add("hidden");
+            }
+          } else {
+            // click both outside link and outside menu, hide menu
+            navMenuDiv.classList.add("hidden");
+          }
+        }
+      }
+      function checkParent(t, elm) {
+        while (t.parentNode) {
+          if (t == elm) {
+            return true;
+          }
+          t = t.parentNode;
+        }
+        return false;
+      }
+    </script>
+
+
+    <!-- Script from: https://css-tricks.com/snippets/jquery/smooth-scrolling/#aa-smooth-scroll-with-jquery -->
+    <script type="text/javascript">
+      // Select all links with hashes
+      $('a[href*="#"]')
+        // Remove links that don't actually link to anything
+        .not('[href="#"]')
+        .not('[href="#0"]')
+        .click(function(event) {
+          // On-page links
+          if (
+            location.pathname.replace(/^\//, '') == this.pathname.replace(/^\//, '') 
+            && 
+            location.hostname == this.hostname
+          ) {
+            // Figure out element to scroll to
+            var target = $(this.hash);
+            target = target.length ? target : $('[name=' + this.hash.slice(1) + ']');
+            // Does a scroll target exist?
+            if (target.length) {
+              // Only prevent default if animation is actually gonna happen
+              event.preventDefault();
+              $('html, body').animate({
+                scrollTop: target.offset().top
+              }, 1000, function() {
+                // Callback after animation
+                // Must change focus!
+                var $target = $(target);
+                $target.focus();
+                if ($target.is(":focus")) { // Checking if the target was focused
+                  return false;
+                } else {
+                  $target.attr('tabindex','-1'); // Adding tabindex for elements not focusable
+                  $target.focus(); // Set focus again
+                };
+              });
+            }
+          }
+        });
+    </script>
+
+  </body>
+</html>
